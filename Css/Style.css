@@ -1,0 +1,52 @@
+.card-img-top {
+ height: 300px;
+}
+.test:focus {
+    background-color: black;
+}
+.pre:hover {
+    background-color: black;
+}
+.pre:active
+{
+    background-color: black;
+} 
+
+
+/* a:visited {
+    outline: none;
+    background-color: white;   
+} */
+
+/* Note => Outline of visited linK in Pagination
+ */
+
+
+  @media (min-width: 576px) {
+    /* Small devices */
+    .chefImg {
+      width: 300px; 
+    }
+  }
+  @media (min-width: 768px) {
+    /* Medium devices */
+    .chefImg {
+      width: 400px;
+    }
+    .card-img-top {
+      height: 300px;
+     }
+  }
+  @media (min-width: 992px) {
+    /* Large devices */
+    .chefImg {
+      width: 500px; 
+    }
+  }
+  @media (min-width: 1200px) {
+    /* Extra large devices */
+    .chefImg {
+      width: 600px; 
+    }
+  }
+  
