@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      alert("Enter question number and Open console to see the output");
+      let myScript = parseInt( prompt(
+        "Enter [ 1 => Promise Assignment , 2 => Page Assignment]"
+      ));
+      switch (myScript) {
+        case 1:
+          let myScript1 = document.createElement("script");
+          myScript1.src = "JS/Assignments.js";
+          document.body.appendChild(myScript1);
+          break;
+        case 2:
+          let myScript2 = document.createElement("script");
+          myScript2.src = "JS/main.js";
+          document.body.appendChild(myScript2);
+          break;
+        default:
+          console.log("Wrong Script Number");
+      }
+    </script>
+    <!-- <script src="JS/main.js" id="script1"></script>
+    <script src="Assignments.js" id="script2"></script> -->
+  </body>
+</html>
